@@ -1,7 +1,17 @@
 doctype html
 html
   head
-    title= title
+    title #{title} - My Site
+    link(rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css')
     link(rel='stylesheet', href='/stylesheets/style.css')
+    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js')
   body
-    block content
+    header
+      h1 sinnat.me
+    .container
+      .main-content
+        block content
+      .sidebar
+        block sidebar
+    footer
+      p Running on node with Express, Jade and bootstrap
