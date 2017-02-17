@@ -1,17 +1,27 @@
 doctype html
 html
   head
-    title #{title} - My Site
+    title sinnatme
     link(rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css')
     link(rel='stylesheet', href='/stylesheets/style.css')
     script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js')
   body
-    header
-      h1 sinnat.me
-    .container
-      .main-content
-        block content
-      .sidebar
-        block sidebar
-    footer
-      p Running on node with Express, Jade and bootstrap
+    .page-container-full
+      .header.row
+        .col-sm-12
+          .pull-left
+            img(src='/images/3DGlasses.png', alt='icon')
+            a.icon-sinnat(href='/', style='text-decoration:none; margin-left: 20px;') sinnatme
+          ul.nav.pull-right
+            li.pull-left.mr20
+              a('/') Projects
+            li.pull-left.mr20
+              a('/') Resume
+            li.pull-left.mr20
+              a('/') Books
+            li.pull-left.mr20
+              a('/') Blog
+            li.pull-left.mr20
+              a('/') Inspire
+      .page-container.space-8
+        block pagecontainerblock        

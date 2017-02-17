@@ -1,8 +1,96 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
 }
 
-a {
-  color: #00B7FF;
+.header {
+  padding:0 20px;
+  margin:0;
+  background: #fff;
+}
+
+.page-container-full {
+  width:auto;
+  background-color: #f5f5f5;
+}
+
+.page-container {
+  display: table;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.page-container tr {
+	border: 1px solid black;
+}
+
+.icon-sinnat {
+  padding-top: 9px;
+  padding-bottom: 9px;
+  font-size: 1.6em;
+  font-weight: bold;
+  color: #ff5a5f;
+}
+
+.pull-right {
+  float: right;
+}
+
+.pull-left {
+  float: left;
+}
+
+.mr20 {
+  margin-right: 20px;
+}
+
+
+.panel {
+    border: 1px solid #dce0e0;
+    background-color: white;
+    border-radius: 0;
+    margin-top: 25px;
+}
+
+.panel-body {
+  position: relative;
+}
+.panel__no-border {
+  border: none;
+}
+
+.space-8 {
+  margin-bottom: 50px;
+}
+
+.space-4 {
+  margin-bottom: 25px;
+}
+
+.space-top-2 {
+  margin-top: 12.5px;
+}
+
+.space-top-1 {
+  margin-top: 6.25px;
+}
+
+.space-1 {
+  margin-bottom: 6.25px;
+}
+
+.h4 {
+  font-size: 17px;
+}
+
+.text-babu {
+  color: #00d1c1;
+}
+
+.keyword {
+  display: inline-block;
+  background-color: #2b2d36;
+  border-radius: 10px;
+  color: #0f9;
+  margin: 2px;
 }
