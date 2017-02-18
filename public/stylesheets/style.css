@@ -20,6 +20,11 @@ body {
   max-width: 1000px;
 }
 
+.page-container-books {
+  display: table;
+  margin: 0 auto;
+  max-width: 500px;
+}
 .page-container tr {
 	border: 1px solid black;
 }
@@ -93,4 +98,9 @@ body {
   border-radius: 10px;
   color: #0f9;
   margin: 2px;
+}
+
+.col-centered {
+  float:none;
+  margin: 0 auto;
 }
