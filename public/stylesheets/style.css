@@ -35,7 +35,12 @@ body {
   padding-bottom: 9px;
   font-size: 1.6em;
   font-weight: bold;
-  color: #ff5a5f;
+  cursor: pointer;
+}
+
+.icon-symbol {
+  padding-bottom: 9px;
+  text-decoration: none;
 }
 
 .pull-right {
