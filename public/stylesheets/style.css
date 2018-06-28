@@ -13,6 +13,7 @@ body {
 .page-container-full {
   width:auto;
   background-color: #f5f5f5;
+  min-height: -webkit-fill-available;
 }
 
 .page-container {

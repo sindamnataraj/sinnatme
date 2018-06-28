@@ -8,6 +8,8 @@ var bodyParser = require('body-parser');
 var routes = require('./routes/index');
 var users = require('./routes/users');
 var books = require('./routes/books');
+var machinelearning = require('./routes/machinelearning');
+var projects = require('./routes/projects');
 
 var app = express();
 //testing
@@ -26,7 +28,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
 app.use('/users', users);
-app.use('/books',books);
+app.use('/books', books);
+app.use('/machinelearning', machinelearning);
+app.use('/projects', projects);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
