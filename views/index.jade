@@ -2,36 +2,36 @@ extends layout
 block pagecontainerblock
   .page-container.space-8
     .col-md-12.panel.panel__no-border                  
-      .panel-body.col-md-12.col-sm-12.space-4     
+      .panel-body.col-md-4.col-sm-4.space-4     
         .media
           a(href='/projects')
-            .pull-left
+            .pull-left.tile-paddding
               img(height='60', src='/images/i-projects.png')
               br
-              .space-top-2(style='margin-left: 15px;')
+              .space-top-2.color-black
                 .h4.space-1
-                  strong Projects
+                  p Projects
                 .project-desc
                 | Collection of Projects             
-      .panel-body.col-md-12.col-sm-12.space-4       
+      .panel-body.col-md-4.col-sm-4.space-4       
         .media
           a(href='/machinelearning')
-            .pull-left
+            .pull-left.tile-paddding
               img(height='60', src='/images/i-ml.png')
               br
-              .space-top-2(style='margin-left: 15px;')
+              .space-top-2.color-black
                 .h4.space-1
-                  strong Machine Learning
+                  p Machine Learning
                 .project-desc
                 | Machine Learning related Projects
-      .panel-body.col-md-12.col-sm-12.space-4       
+      .panel-body.col-md-4.col-sm-4.space-4       
         .media
           a(href='/books')
-            .pull-left
+            .pull-left.tile-paddding
               img(height='60', src='/images/i-books.png')
               br
-              .space-top-2(style='margin-left: 15px;')
+              .space-top-2.color-black
                 .h4.space-1
-                  strong Books
+                  p Books
                 .project-desc
                 | Good reads

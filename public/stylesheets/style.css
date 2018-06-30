@@ -1,5 +1,5 @@
 body {
-    font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px;
 }
 
@@ -31,11 +31,19 @@ body {
 	border: 1px solid black;
 }
 
+.menu-font {
+  font-size: 23px;
+  font-weight: 100;
+  letter-spacing: -.01em;
+
+}
+
 .icon-sinnat {
   padding-top: 9px;
   padding-bottom: 9px;
-  font-size: 1.6em;
-  font-weight: bold;
+  font-size: 30px;
+  font-weight: 100;
+  letter-spacing: -.01em;
   cursor: pointer;
 }
 
@@ -96,11 +104,22 @@ body {
 }
 
 .h4 {
-  font-size: 17px;
+  font-size: 30px;
+  font-weight: 100;
+  letter-spacing: -.01em;
 }
 
 .text-babu {
   color: #00d1c1;
+  font-size: 15px;
+  font-weight: 10;
+  letter-spacing: -.01em;
+}
+
+.project-desc {
+  font-size: 15px;
+  font-weight: 10;
+  letter-spacing: -.01em;
 }
 
 .keyword {
@@ -114,4 +133,16 @@ body {
 .col-centered {
   float:none;
   margin: 0 auto;
+}
+
+.tile-paddding {
+  padding: 50px;
+}
+
+.tile-paddding:hover {
+  border: 1px solid black;
+}
+
+.color-black {
+  color: black;
 }
