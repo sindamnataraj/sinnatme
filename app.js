@@ -10,6 +10,7 @@ var users = require('./routes/users');
 var books = require('./routes/books');
 var machinelearning = require('./routes/machinelearning');
 var projects = require('./routes/projects');
+var articles = require('./routes/articles');
 
 var app = express();
 //testing
@@ -31,6 +32,7 @@ app.use('/users', users);
 app.use('/books', books);
 app.use('/machinelearning', machinelearning);
 app.use('/projects', projects);
+app.use('/articles', articles);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
